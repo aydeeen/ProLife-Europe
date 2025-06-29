@@ -1,4 +1,4 @@
-## Website for ProLife Europe
+## ProLife Europe Website
 
 A custom theme based on \_tw
 
