@@ -1,0 +1,14 @@
+{
+    "name": "acf/hero-get-informed",
+    "title": "Hero Get Informed",
+    "category": "formatting",
+    "icon": "welcome-view-site",
+    "keywords": ["hero", "get", "informed"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-get-informed.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

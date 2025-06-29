@@ -1,0 +1,14 @@
+{
+    "name": "acf/marquee",
+    "title": "Marquee",
+    "category": "formatting",
+    "icon": "arrow-left-alt",
+    "keywords": ["marquee"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "marquee.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

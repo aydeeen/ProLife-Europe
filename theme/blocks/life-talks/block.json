@@ -1,0 +1,14 @@
+{
+    "name": "acf/life-talks",
+    "title": "Life Talks",
+    "category": "formatting",
+    "icon": "bell",
+    "keywords": ["life", "talks"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "life-talks.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

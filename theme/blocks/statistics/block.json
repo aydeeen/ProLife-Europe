@@ -1,0 +1,14 @@
+{
+    "name": "acf/statistics",
+    "title": "Statistics",
+    "category": "formatting",
+    "icon": "admin-site",
+    "keywords": ["statistics"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "statistics.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

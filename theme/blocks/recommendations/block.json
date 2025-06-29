@@ -1,0 +1,14 @@
+{
+    "name": "acf/recommendations",
+    "title": "Recommendations",
+    "category": "formatting",
+    "icon": "tickets",
+    "keywords": ["recommendations"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "recommendations.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

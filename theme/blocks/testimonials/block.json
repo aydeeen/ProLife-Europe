@@ -1,0 +1,14 @@
+{
+    "name": "acf/testimonials",
+    "title": "Testimonials",
+    "category": "formatting",
+    "icon": "admin-home",
+    "keywords": ["testimonials"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "testimonials.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

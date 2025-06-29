@@ -1,0 +1,14 @@
+{
+    "name": "acf/default-content",
+    "title": "Default Content",
+    "category": "formatting",
+    "icon": "media-default",
+    "keywords": ["default", "content"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "default-content.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

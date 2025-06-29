@@ -1,0 +1,14 @@
+{
+    "name": "acf/videos",
+    "title": "Videos",
+    "category": "formatting",
+    "icon": "video-alt3",
+    "keywords": ["videos"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "videos.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

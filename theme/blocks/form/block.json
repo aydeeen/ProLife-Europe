@@ -1,0 +1,14 @@
+{
+    "name": "acf/form",
+    "title": "Form",
+    "category": "formatting",
+    "icon": "feedback",
+    "keywords": ["form"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "form.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "acf/hero-take-action",
+    "title": "Hero Take Action",
+    "category": "formatting",
+    "icon": "welcome-view-site",
+    "keywords": ["hero", "take", "action"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-take-action.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

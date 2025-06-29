@@ -1,0 +1,198 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `components` layer
+ *
+ * “Add more opinionated, complex classes like buttons, form controls, alerts,
+ * etc; the sort of pre-built components you often see in other frameworks that
+ * you might need to override with utility classes.”
+ *
+ * — from https://tailwindcss.com/docs/plugins#adding-components
+ */
+
+/* Layout sizes */
+.main {
+	@apply max-w-content mx-auto px-5;
+}
+
+.wide {
+	@apply max-w-wide mx-auto px-5;
+}
+
+/* Buttons */
+.btn {
+	@apply inline-flex justify-center items-center gap-1 py-2 px-10 bg-green text-cream font-medium rounded-full transition ease-out duration-200 hover:text-cream hover:bg-green-dark focus:outline-none focus:ring ring-green-dark focus:bg-green focus:ring-opacity-75;
+}
+
+.btn-yellow {
+	@apply bg-yellow text-body ring-orange-light hover:text-body hover:bg-orange-light focus:bg-yellow;
+}
+
+/* Headings */
+.heading {
+	@apply font-bold ~text-4xl/5xl ~leading-9/48 -tracking-2;
+}
+
+.heading-big {
+	@apply font-bold text-cream ~text-56/8xl ~leading-56/96 ~-tracking-3/6;
+}
+
+/* Header */
+#menu-header,
+#mobileMenu {
+	li {
+		a {
+			@apply relative;
+
+			& {
+				&::after {
+					content: "";
+
+					@apply absolute block left-0 top-full my-0 mx-auto h-2px bg-orange w-0 transition-all duration-200;
+				}
+
+				&:hover::after {
+					@apply w-full;
+				}
+			}
+		}
+
+		&.current-menu-item,
+		&.current-page-ancestor {
+			a::after {
+				@apply w-full;
+			}
+		}
+	}
+}
+
+/* Form */
+.wpcf7-form {
+	input {
+		&:not(.wpcf7-submit) {
+			@apply placeholder-body/[40%];
+		}
+	}
+}
+
+/* Recaptcha */
+.grecaptcha-badge {
+	@apply invisible;
+}
+
+/* Hero Take Action */
+#hero-take-action__pr {
+	h1 {
+		@apply ~text-56/185 ~leading-56/185 z-10 relative;
+	}
+}
+
+/* Content with Image blocks */
+#content-with-image__donate {
+	h2 {
+		@apply ~text-56/80 ~leading-56/80;
+	}
+}
+
+#content-with-image__get-equipped {
+	.image-wrapper {
+		@apply -ml-60px sm:ml-0 xl:w-[110%] 2xl:w-[134%];
+	}
+}
+
+#content-with-image--already-in-group__take-action {
+	.btn {
+		@apply mx-auto md:mx-0;
+	}
+
+	.btn + a {
+		@apply mx-auto md:ml-60px md:mr-0;
+	}
+}
+
+#content-with-image__heidelberg {
+	> div {
+		@apply pt-0;
+	}
+}
+
+/* Content with Image first block on the Get Informed page */
+#abortion {
+	> div {
+		@apply pb-0;
+	}
+}
+
+/* Events Calendar on the Take Action page */
+#events-calendar__take-action {
+	> div {
+		@apply ~pt-14/16;
+	}
+
+	.heading-big + div {
+		@apply bg-blue-dark;
+	}
+}
+
+/* Events */
+.post-type-archive-tribe_events {
+	@apply bg-[#FFFAF0];
+
+	.tribe-events-header__title-text {
+		@apply font-bold;
+	}
+
+	* {
+		@apply !font-sans;
+	}
+}
+
+/* Single Event */
+.single-tribe_events {
+	@apply bg-[#FFFAF0];
+
+	.tribe-events-back {
+		a {
+			@apply hover:text-orange;
+		}
+	}
+
+	.tribe-events-hybrid-single-marker,
+	.tribe-events-virtual-single-marker {
+		@apply bg-yellow;
+	}
+
+	* {
+		@apply !font-sans;
+	}
+}
+
+.tribe-common-c-btn,
+.tribe-common-c-btn-border,
+.tribe-events-virtual-link-button {
+	@apply !rounded-full !bg-green hover:!bg-green-dark focus:!outline-none !text-cream !border-none;
+}
+
+.tribe-related-event-info {
+	@apply !px-2.5;
+}
+
+.tribe-events-calendar-list__event-featured-image-link {
+	@apply rounded-2xl;
+}
+
+.tribe-events-c-nav {
+	.tribe-common-b2 {
+		@apply !text-base;
+	}
+}
+
+/* Take Action Block - DE */
+#hero-take-action_de {
+	@apply overflow-hidden;
+
+	> div {
+		> div:last-child {
+			@apply sm:translate-x-60px;
+		}
+	}
+}
+

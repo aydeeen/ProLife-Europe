@@ -1,0 +1,14 @@
+{
+    "name": "acf/find-a-group",
+    "title": "Find a Group",
+    "category": "formatting",
+    "icon": "visibility",
+    "keywords": ["find", "group"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "find-a-group.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

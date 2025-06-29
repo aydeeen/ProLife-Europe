@@ -1,0 +1,14 @@
+{
+    "name": "acf/life-talks-slider",
+    "title": "Life Talks Slider",
+    "category": "formatting",
+    "icon": "smiley",
+    "keywords": ["life", "talks", "slider"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "life-talks-slider.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

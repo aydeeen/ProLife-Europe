@@ -1,0 +1,55 @@
+{
+    "key": "group_674329c12b295",
+    "title": "Topics",
+    "fields": [
+        {
+            "key": "field_67432bab11025",
+            "label": "Topic",
+            "name": "topic",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Abortion": "Abortion",
+                "Adoption": "Adoption",
+                "IVF treatment": "IVF treatment",
+                "Suicide": "Suicide",
+                "Euthanasia": "Euthanasia"
+            },
+            "default_value": "Abortion",
+            "return_format": "array",
+            "multiple": 0,
+            "allow_null": 0,
+            "allow_in_bindings": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-topic.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1739021438
+}

@@ -1,0 +1,14 @@
+{
+    "name": "acf/slider-alpine-only",
+    "title": "Slider",
+    "category": "formatting",
+    "icon": "welcome-view-site",
+    "keywords": ["slider"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "slider-alpine-only.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

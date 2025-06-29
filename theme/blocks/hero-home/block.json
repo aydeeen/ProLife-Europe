@@ -1,0 +1,14 @@
+{
+    "name": "acf/hero-home",
+    "title": "Hero Home",
+    "category": "formatting",
+    "icon": "welcome-view-site",
+    "keywords": ["hero", "home"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-home.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

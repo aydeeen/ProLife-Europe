@@ -1,0 +1,14 @@
+{
+    "name": "acf/sources-and-studies",
+    "title": "Sources and Studies",
+    "category": "formatting",
+    "icon": "code-standards",
+    "keywords": ["sources", "studies"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "sources-and-studies.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

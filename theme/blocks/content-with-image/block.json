@@ -1,0 +1,14 @@
+{
+    "name": "acf/content-with-image",
+    "title": "Content With Image",
+    "category": "formatting",
+    "icon": "embed-photo",
+    "keywords": ["content", "image"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "content-with-image.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

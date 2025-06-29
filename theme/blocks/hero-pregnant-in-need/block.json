@@ -1,0 +1,14 @@
+{
+    "name": "acf/hero-pregnant-in-need",
+    "title": "Hero Pregnant & In Need",
+    "category": "formatting",
+    "icon": "welcome-view-site",
+    "keywords": ["hero", "pregnant", "in", "need"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-pregnant-in-need.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

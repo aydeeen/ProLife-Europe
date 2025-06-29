@@ -1,0 +1,14 @@
+{
+    "name": "acf/values",
+    "title": "Values",
+    "category": "formatting",
+    "icon": "superhero",
+    "keywords": ["values"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "values.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

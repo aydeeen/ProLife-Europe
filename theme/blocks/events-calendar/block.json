@@ -1,0 +1,14 @@
+{
+    "name": "acf/events-calendar",
+    "title": "Events Calendar",
+    "category": "formatting",
+    "icon": "calendar",
+    "keywords": ["events", "calendar"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "events-calendar.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

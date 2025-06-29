@@ -1,0 +1,14 @@
+{
+    "name": "acf/hero-donate",
+    "title": "Hero Donate",
+    "category": "formatting",
+    "icon": "welcome-view-site",
+    "keywords": ["hero", "donate"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-donate.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

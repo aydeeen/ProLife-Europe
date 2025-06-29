@@ -1,0 +1,14 @@
+{
+    "name": "acf/partner-organizations",
+    "title": "Partner Organizations",
+    "category": "formatting",
+    "icon": "palmtree",
+    "keywords": ["partner", "organizations"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "partner-organizations.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

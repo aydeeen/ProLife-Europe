@@ -1,0 +1,14 @@
+{
+    "name": "acf/team",
+    "title": "Team",
+    "category": "formatting",
+    "icon": "universal-access",
+    "keywords": ["team"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "team.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "acf/opportunities-and-positions",
+    "title": "Opportunities and Positions",
+    "category": "formatting",
+    "icon": "megaphone",
+    "keywords": ["opportunities", "positions"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "opportunities-and-positions.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

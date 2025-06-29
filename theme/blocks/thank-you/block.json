@@ -1,0 +1,14 @@
+{
+    "name": "acf/thank-you",
+    "title": "Thank You",
+    "category": "formatting",
+    "icon": "universal-access-alt",
+    "keywords": ["thank", "you"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "thank-you.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

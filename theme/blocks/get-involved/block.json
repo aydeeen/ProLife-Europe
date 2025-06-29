@@ -1,0 +1,14 @@
+{
+    "name": "acf/get-involved",
+    "title": "Get Involved",
+    "category": "formatting",
+    "icon": "image-filter",
+    "keywords": ["get", "involved"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "get-involved.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

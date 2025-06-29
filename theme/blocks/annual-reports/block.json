@@ -1,0 +1,14 @@
+{
+    "name": "acf/annual-reports",
+    "title": "Annual Reports",
+    "category": "formatting",
+    "icon": "open-folder",
+    "keywords": ["annual", "reports"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "annual-reports.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

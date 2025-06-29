@@ -1,0 +1,14 @@
+{
+    "name": "acf/hero-get-equiped",
+    "title": "Hero Get Equiped",
+    "category": "formatting",
+    "icon": "welcome-view-site",
+    "keywords": ["hero", "get", "equiped"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-get-equiped.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "acf/resources-and-education",
+    "title": "Resources and Education",
+    "category": "formatting",
+    "icon": "welcome-learn-more",
+    "keywords": ["resources", "education"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "resources-and-education.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

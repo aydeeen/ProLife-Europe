@@ -1,0 +1,14 @@
+{
+    "name": "acf/accordion",
+    "title": "Accordion",
+    "category": "formatting",
+    "icon": "editor-ul",
+    "keywords": ["accordion"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "accordion.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

@@ -1,0 +1,74 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "body",
+					"color": "#2C1C12",
+					"name": "Body"
+				},
+				{
+					"slug": "cream",
+					"color": "#ECE3CF",
+					"name": "Cream"
+				},
+				{
+					"slug": "green",
+					"color": "#225C55",
+					"name": "Green"
+				},
+				{
+					"slug": "green-dark",
+					"color": "#084A42",
+					"name": "Green Dark"
+				},
+				{
+					"slug": "yellow",
+					"color": "#FFDE43",
+					"name": "Yellow"
+				},
+				{
+					"slug": "orange",
+					"color": "#F36025",
+					"name": "Orange"
+				},
+				{
+					"slug": "orange-light",
+					"color": "#F7A02F",
+					"name": "Orange Light"
+				},
+				{
+					"slug": "brown",
+					"color": "#291D13",
+					"name": "Brown"
+				},
+				{
+					"slug": "blue",
+					"color": "#212649", 
+					"name": "Blue"
+				},
+				{
+					"slug": "blue-dark",
+					"color": "#15182E", 
+					"name": "Blue Dark"
+				},
+				{
+					"slug": "blue-light",
+					"color": "#AAB0D6", 
+					"name": "Blue Light"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "75rem",
+			"wideSize": "90rem"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "name": "acf/hero-about",
+    "title": "Hero About",
+    "category": "formatting",
+    "icon": "welcome-view-site",
+    "keywords": ["hero", "about"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-about.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

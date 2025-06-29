@@ -1,0 +1,14 @@
+{
+    "name": "acf/donation-form",
+    "title": "Donation Form",
+    "category": "formatting",
+    "icon": "heart",
+    "keywords": ["donation", "form"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "donation-form.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

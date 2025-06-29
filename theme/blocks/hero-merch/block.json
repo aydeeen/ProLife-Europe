@@ -1,0 +1,14 @@
+{
+    "name": "acf/hero-merch",
+    "title": "Hero Merch",
+    "category": "formatting",
+    "icon": "welcome-view-site",
+    "keywords": ["hero", "merch"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-merch.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

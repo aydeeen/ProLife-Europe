@@ -1,0 +1,14 @@
+{
+    "name": "acf/three-pillars",
+    "title": "Three Pillars",
+    "category": "formatting",
+    "icon": "admin-multisite",
+    "keywords": ["pillars"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "three-pillars.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

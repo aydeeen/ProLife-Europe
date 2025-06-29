@@ -1,0 +1,14 @@
+{
+    "name": "acf/help-centers",
+    "title": "Help Centers",
+    "category": "formatting",
+    "icon": "superhero-alt",
+    "keywords": ["help", "centers"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "help-centers.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

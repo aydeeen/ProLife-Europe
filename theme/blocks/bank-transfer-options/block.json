@@ -1,0 +1,14 @@
+{
+    "name": "acf/bank-transfer-options",
+    "title": "Bank Transfer Options",
+    "category": "formatting",
+    "icon": "controls-repeat",
+    "keywords": ["bank", "transfer", "options"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "bank-transfer-options.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

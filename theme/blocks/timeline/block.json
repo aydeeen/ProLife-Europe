@@ -1,0 +1,14 @@
+{
+    "name": "acf/timeline",
+    "title": "Timeline",
+    "category": "formatting",
+    "icon": "buddicons-topics",
+    "keywords": ["timeline"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "timeline.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}
